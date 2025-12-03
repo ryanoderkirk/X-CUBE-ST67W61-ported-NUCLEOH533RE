@@ -3,6 +3,6 @@
 ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:496:22:LL_GPIO_SetPinPull	3
 ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:569:22:LL_GPIO_SetAFPin_0_7	3
 ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:646:22:LL_GPIO_SetAFPin_8_15	3
-C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:104:13:LL_GPIO_DeInit	10
-C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:186:13:LL_GPIO_Init	8
-C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:258:6:LL_GPIO_StructInit	1
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:104:13:LL_GPIO_DeInit	10
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:186:13:LL_GPIO_Init	8
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_gpio.c:258:6:LL_GPIO_StructInit	1

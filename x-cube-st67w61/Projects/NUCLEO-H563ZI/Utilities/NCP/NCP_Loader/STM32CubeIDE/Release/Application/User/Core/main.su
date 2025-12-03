@@ -1,5 +1,0 @@
-/Users/ryanoderkirk/STM32CubeIDE/workspace_1.19.0/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:103:13:uart_bypass	24	static
-/Users/ryanoderkirk/STM32CubeIDE/workspace_1.19.0/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:66:6:HAL_GPIO_EXTI_Falling_Callback	0	static
-/Users/ryanoderkirk/STM32CubeIDE/workspace_1.19.0/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:210:6:SystemClock_Config	128	static,ignoring_inline_asm
-/Users/ryanoderkirk/STM32CubeIDE/workspace_1.19.0/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:160:5:main	64	static,ignoring_inline_asm
-/Users/ryanoderkirk/STM32CubeIDE/workspace_1.19.0/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:424:6:Error_Handler	0	static,ignoring_inline_asm

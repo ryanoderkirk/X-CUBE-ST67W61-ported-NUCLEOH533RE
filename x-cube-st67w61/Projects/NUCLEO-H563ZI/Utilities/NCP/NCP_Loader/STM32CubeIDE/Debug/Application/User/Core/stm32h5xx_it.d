@@ -1,5 +1,5 @@
 Application/User/Core/stm32h5xx_it.o: \
- C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c \
+ /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
  ../../Core/Inc/stm32h5xx_hal_conf.h \

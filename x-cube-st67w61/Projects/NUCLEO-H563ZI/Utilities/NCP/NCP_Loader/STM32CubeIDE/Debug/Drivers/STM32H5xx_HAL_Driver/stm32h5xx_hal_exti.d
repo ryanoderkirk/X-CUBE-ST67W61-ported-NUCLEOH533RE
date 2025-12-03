@@ -1,5 +1,5 @@
 Drivers/STM32H5xx_HAL_Driver/stm32h5xx_hal_exti.o: \
- C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c \
+ /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_hal_exti.c \
  ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
  ../../Core/Inc/stm32h5xx_hal_conf.h \
  ../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h \

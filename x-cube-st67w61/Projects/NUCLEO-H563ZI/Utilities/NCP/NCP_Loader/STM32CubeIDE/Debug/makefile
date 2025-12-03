@@ -64,8 +64,8 @@ all: main-build
 main-build: NCP_Loader.elf secondary-outputs
 
 # Tool invocations
-NCP_Loader.elf NCP_Loader.map: $(OBJS) $(USER_OBJS) C:\Users\rmo31\Desktop\x-cube-st67w61\Projects\NUCLEO-H563ZI\Utilities\NCP\NCP_Loader\STM32CubeIDE\STM32H533RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "NCP_Loader.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\rmo31\Desktop\x-cube-st67w61\Projects\NUCLEO-H563ZI\Utilities\NCP\NCP_Loader\STM32CubeIDE\STM32H533RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NCP_Loader.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+NCP_Loader.elf NCP_Loader.map: $(OBJS) $(USER_OBJS) /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/STM32CubeIDE/STM32H533RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "NCP_Loader.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/STM32CubeIDE/STM32H533RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NCP_Loader.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -5,9 +5,9 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c \
-C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_hal_msp.c \
-C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c \
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c \
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_hal_msp.c \
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c \
 ../Application/User/Core/syscalls.c \
 ../Application/User/Core/sysmem.c 
 
@@ -27,11 +27,11 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Application/User/Core/main.o: C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c Application/User/Core/subdir.mk
+Application/User/Core/main.o: /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c Application/User/Core/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H563xx -DNCP_FLASH_MODE -DUSE_FULL_LL_DRIVER -c -I../../Core/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../../../../../../../Drivers/CMSIS/Include -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/Core/stm32h5xx_hal_msp.o: C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_hal_msp.c Application/User/Core/subdir.mk
+Application/User/Core/stm32h5xx_hal_msp.o: /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_hal_msp.c Application/User/Core/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H563xx -DNCP_FLASH_MODE -DUSE_FULL_LL_DRIVER -c -I../../Core/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../../../../../../../Drivers/CMSIS/Include -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
-Application/User/Core/stm32h5xx_it.o: C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c Application/User/Core/subdir.mk
+Application/User/Core/stm32h5xx_it.o: /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/stm32h5xx_it.c Application/User/Core/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H563xx -DNCP_FLASH_MODE -DUSE_FULL_LL_DRIVER -c -I../../Core/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../../../../../../../Drivers/CMSIS/Include -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 Application/User/Core/%.o Application/User/Core/%.su Application/User/Core/%.cyclo: ../Application/User/Core/%.c Application/User/Core/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H563xx -DNCP_FLASH_MODE -DUSE_FULL_LL_DRIVER -c -I../../Core/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../../../../../../../Drivers/CMSIS/Include -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"

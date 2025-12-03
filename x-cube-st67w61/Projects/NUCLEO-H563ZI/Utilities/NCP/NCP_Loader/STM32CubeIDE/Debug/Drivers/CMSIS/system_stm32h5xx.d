@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32h5xx.o: \
- C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c \
+ /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h563xx.h \
  ../../../../../../../Drivers/CMSIS/Include/core_cm33.h \

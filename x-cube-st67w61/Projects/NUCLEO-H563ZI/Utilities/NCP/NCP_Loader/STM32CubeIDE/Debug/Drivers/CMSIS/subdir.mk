@@ -5,7 +5,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c 
+/Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c 
 
 OBJS += \
 ./Drivers/CMSIS/system_stm32h5xx.o 
@@ -15,7 +15,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/CMSIS/system_stm32h5xx.o: C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c Drivers/CMSIS/subdir.mk
+Drivers/CMSIS/system_stm32h5xx.o: /Users/ryanoderkirk/code/X-CUBE-ST67W61-ported-NUCLEOH533RE/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/system_stm32h5xx.c Drivers/CMSIS/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H563xx -DNCP_FLASH_MODE -DUSE_FULL_LL_DRIVER -c -I../../Core/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../../../../../../../Drivers/CMSIS/Include -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Drivers-2f-CMSIS
