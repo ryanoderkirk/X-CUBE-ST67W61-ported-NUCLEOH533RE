@@ -1,0 +1,14 @@
+../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_rcc.h:4667:22:LL_RCC_PLL1_ConfigDomain_SYS	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:841:17:UTILS_GetPLLOutputFrequency	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:874:20:UTILS_PLL_IsBusy	2
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:212:6:LL_Init1msTick	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:226:6:LL_Init1msTick_HCLK_Div8	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:240:6:LL_Init1msTick_LSE	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:254:6:LL_Init1msTick_LSI	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:272:6:LL_mDelay	4
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:346:6:LL_SetSystemCoreClock	1
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:659:13:LL_SetFlashLatency	30
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:897:20:UTILS_EnablePLLAndSwitchSystem	8
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:369:13:LL_PLL_ConfigSystemClock_CSI	5
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:459:13:LL_PLL_ConfigSystemClock_HSI	5
+C:/Users/rmo31/Desktop/x-cube-st67w61/Drivers/STM32H5xx_HAL_Driver/Src/stm32h5xx_ll_utils.c:553:13:LL_PLL_ConfigSystemClock_HSE	7

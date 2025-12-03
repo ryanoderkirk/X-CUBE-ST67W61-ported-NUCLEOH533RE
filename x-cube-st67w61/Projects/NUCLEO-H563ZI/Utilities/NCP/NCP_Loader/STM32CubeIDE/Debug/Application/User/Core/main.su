@@ -1,0 +1,11 @@
+../../../../../../../Drivers/CMSIS/Include/core_cm33.h:2634:26:NVIC_EncodePriority	4	static
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:71:13:uart_pass_through	0	static
+../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:283:22:LL_GPIO_SetPinMode	4	static,ignoring_inline_asm
+../../../../../../../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:496:22:LL_GPIO_SetPinPull	4	static,ignoring_inline_asm
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:297:13:MX_GPIO_Init	88	static,ignoring_inline_asm
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:103:13:uart_bypass	16	static
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:66:6:HAL_GPIO_EXTI_Falling_Callback	0	static
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:425:6:Error_Handler	0	static,ignoring_inline_asm
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:269:13:MX_ICACHE_Init	8	static
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:210:6:SystemClock_Config	120	static
+C:/Users/rmo31/Desktop/x-cube-st67w61/Projects/NUCLEO-H563ZI/Utilities/NCP/NCP_Loader/Core/Src/main.c:160:5:main	8	static
